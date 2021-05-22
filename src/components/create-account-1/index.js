@@ -21,22 +21,6 @@ const CreateAccount = () => {
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-col text-sm mb-4">
-        {/*input*/}
-        <div className="w-full mb-4">
-          <label className="block">
-            <span className="text-default">CNPJ:</span>
-            <input
-              name="cnpj"
-              type="text"
-              ref={register({required: true})}
-              className="form-input mt-1 text-xs block w-full bg-white"
-              placeholder="Informe o CPNJ do condomínio"
-            />
-          </label>
-          {errors.name && (
-            <p className="mt-1 text-xs text-red-500">É necessário informar o CNPJ</p>
-          )}
-        </div>
 
         {/*input*/}
         <div className="w-full mb-4">
@@ -104,7 +88,7 @@ const CreateAccount = () => {
           <input
             type="submit"
             className="btn btn-default btn-block btn-indigo btn-rounded"
-            value="Cadastrar Síndico"
+            value="Cadastrar"
           />
         </div>
       </form>

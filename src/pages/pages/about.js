@@ -5,7 +5,7 @@ import Centered from '../../layouts/centered'
 const Index = () => (
   <Centered>
   <p className="text-secondary mb-4 text-center">
-  Build 0.0.16
+  Build 0.0.17
   </p>
 </Centered>
 )

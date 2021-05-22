@@ -6,7 +6,7 @@ const CreateAccount = () => {
   return (
     <Centered>
       <p className="text-secondary mb-4">
-        Informe o CNPJ, seu e-mail e senha para criar uma conta de síndico.
+        Informe seu e-mail e senha para criar seu acesso.
       </p>
       <Form />
     </Centered>
